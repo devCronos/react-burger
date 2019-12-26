@@ -43,8 +43,8 @@ const setIngredient = (state=initialState,action) => {
             bacon: action.ingredients.bacon,
             cheese: action.ingredients.cheese,
             meat: action.ingredients.meat,
-            building: false
         },
+        building: false,
         totalPrice: 4,
         error: false
     });
